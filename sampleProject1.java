@@ -9,6 +9,6 @@ public class Hello
   
     String str = sc.nextLine();
   
-    System.out.Println("Hello" +str);
+    System.out.Println("Hello " +str);
  }
 }
