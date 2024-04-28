@@ -8,7 +8,7 @@ public class sampleProject3 {
 
         System.out.println("Welcome to Car Showroom :) ");
 
-        System.out.println("BMW \nHonda City \nInova \nEritka \nFerrari ");
+        System.out.println("BMW \nHonda City \nInnova \nEritga \nFerrari ");
 
         System.out.println("Please Select the Car ");
 
@@ -22,11 +22,11 @@ public class sampleProject3 {
         else if (str.equalsIgnoreCase("HondaCity")) 
             list.hondaCity();
 
-        else if (str.equalsIgnoreCase("Inova")) 
-            list.inova();
+        else if (str.equalsIgnoreCase("Innova")) 
+            list.innova();
 
-        else if (str.equalsIgnoreCase("Eritka"))
-            list.eritka();
+        else if (str.equalsIgnoreCase("Eritga"))
+            list.eritga();
 
         else if (str.equalsIgnoreCase("Ferrari"))
             list.ferrari();
@@ -60,10 +60,10 @@ class CarList
         System.out.println("Car Price : " + price + "\nMileage : " +mileage + "\nMade In : " +madeIn);
     }
 
-    public void inova()
+    public void innova()
     {
 
-        System.out.println("Welcome to Inova Cars, Please check out the Car details "); 
+        System.out.println("Welcome to Innova Cars, Please check out the Car details "); 
         int price = 270000;
         int mileage = 20;
         String madeIn = "Japan";
@@ -71,9 +71,9 @@ class CarList
         System.out.println("Car Price : " + price + "\nMileage : " +mileage + "\nMade In : " +madeIn);
     }
 
-    public void eritka()
+    public void eritga()
     {
-        System.out.println("Welcome to Eritka Cars, Please check out the Car details "); 
+        System.out.println("Welcome to Eritga Cars, Please check out the Car details "); 
         int price = 110000;
         int mileage = 25;
         String madeIn = "India";
